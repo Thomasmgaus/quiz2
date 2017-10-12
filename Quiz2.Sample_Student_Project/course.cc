@@ -3,6 +3,11 @@
 	course.
 		John Dolan		School of EECS		Summer2013
 **************************************************************************/
+/**
+@file course.cc
+@brief This contains the class implementations of the course.h file
+@see course.h
+**/
 #include "course.h"
 #include<cstdlib>
 #include<iostream>

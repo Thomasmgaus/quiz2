@@ -5,6 +5,12 @@
 //10/8/2015
 //********************
 
+
+/**
+@file college.h
+@breif This includes the prototypes for the class college, which displays college hours and gpa
+@see college.cc
+**/
 #include <iostream>
 #include <fstream>
 #include <string>

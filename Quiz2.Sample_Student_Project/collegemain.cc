@@ -11,7 +11,13 @@
     and the .cc file for the container.
 	John Dolan			Spring 2015
 **********************************************************/
-
+/**
+@file collegemain.cc
+@brief This implements the college, course, and node classes, and puts them into an interactable menu via a switch statement
+@see course.h
+@see node.h
+@see college.h
+**/
 #include <iostream>
 #include <fstream>
 #include <string>

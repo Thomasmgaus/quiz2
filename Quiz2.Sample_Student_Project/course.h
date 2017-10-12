@@ -6,7 +6,11 @@
 	point system.
 		John Dolan	School of EECS		Summer 2013
 ************************************************************************/
-
+/**
+@file course.h
+@breif This file contains the prototypes of the class course, which returns the course niumber, hours, grade, and overloads the operators for the class
+@see course.h 
+**/
 #include<iostream>
 #include<string>
 #ifndef COURSE_H

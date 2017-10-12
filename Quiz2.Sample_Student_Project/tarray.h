@@ -9,6 +9,11 @@
 ********************************************************************/
 
 #include<iostream>
+/**
+@file tarray.h
+@brief Template class, to be used with multiple types 
+@see collegemain.cc
+**/
 
 template<class T>
 class Tarray{

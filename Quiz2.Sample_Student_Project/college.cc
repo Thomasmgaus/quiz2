@@ -4,18 +4,35 @@
 //CS 2401
 //10/8/2015
 //********************
+
+/**
+@file College.cc
+@brief This contains the function implmentations of college .h
+@see College.h
+**/
+
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
 #include<iomanip>
 #include<string>
 using namespace std;
-
+/**
+@param s
+@return void
+@brief constructor for the college class
+@see college.h
+**/
 College::College(std::string s){
 	name = s;
 	head = NULL;
 }
-
+/**
+@param none
+@return void
+@breif Deconstructor for when an object of college is deleted
+@see college.h
+**/
 
 College::~College(){
 	node * rmptr;
@@ -25,7 +42,12 @@ College::~College(){
 		delete rmptr;
 	}
 }
-
+/**
+@param other (type college)
+@return college
+@brief This is the initalization of the linked list for college. 
+@see node.h
+**/
 College::College(const College& other){
 	if(other.head == NULL){
 		head = NULL;
